@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://c63evf78ojehj" path="res://Scenes/slime.tscn" id="6_f62n8"]
 [ext_resource type="FontFile" uid="uid://bxyeg4hif4h2m" path="res://Assets/fonts/PixelOperator8.ttf" id="7_610h0"]
 [ext_resource type="PackedScene" uid="uid://cucd5yhtr1adl" path="res://Scenes/ice_platform.tscn" id="8_2mgoq"]
+[ext_resource type="PackedScene" uid="uid://cxqxqxqxqxqxq" path="res://Scenes/pause_menu.tscn" id="9_pause"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sp274"]
 texture = ExtResource("2_pwyb6")
@@ -339,3 +340,5 @@ libraries = {
 &"": SubResource("AnimationLibrary_m4rls")
 }
 autoplay = "Move"
+
+[node name="PauseMenu" parent="." instance=ExtResource("9_pause")]

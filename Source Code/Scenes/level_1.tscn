@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://c63evf78ojehj" path="res://Scenes/slime.tscn" id="6_f62n8"]
 [ext_resource type="FontFile" uid="uid://bxyeg4hif4h2m" path="res://Assets/fonts/PixelOperator8.ttf" id="7_610h0"]
 [ext_resource type="PackedScene" uid="uid://c74xaccrnk3fl" path="res://Scenes/teleporter.tscn" id="9_wrinw"]
+[ext_resource type="PackedScene" uid="uid://cxqxqxqxqxqxq" path="res://Scenes/pause_menu.tscn" id="8_pause"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sp274"]
 texture = ExtResource("2_pwyb6")
@@ -352,3 +353,5 @@ position = Vector2(579, 52.0001)
 
 [node name="Teleporter" parent="." instance=ExtResource("9_wrinw")]
 position = Vector2(703.5905, 39.5849)
+
+[node name="PauseMenu" parent="." instance=ExtResource("8_pause")]
